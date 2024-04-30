@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Diretório público para servir arquivos estáticos
-app.use(express.static(path.join(__dirname, 'docs')));
+app.use(express.static(path.join(__dirname, './')));
 
 app.listen(PORT, () => {
  console.log(`Servidor rodando na porta ${PORT}`);
