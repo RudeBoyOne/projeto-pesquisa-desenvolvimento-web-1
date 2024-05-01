@@ -1,7 +1,7 @@
 {
   "name": "css-responsivo-bulma",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000C\u0000S\u0000S\u0000-\u0000R\u0000e\u0000s\u0000p\u0000o\u0000n\u0000s\u0000i\u0000v\u0000o\u0000-\u0000B\u0000u\u0000l\u0000m\u0000a\u0000\r\u0000 \u0000",
+  "description": "Projeto para a matéria Desenvolvimento Web 1, pesquisa e projeto sobre a biblioteca CSS Bulma",
   "scripts": {
     "dev": "parcel serve index.html --dist-dir dev --open --port 3000",
     "build": "parcel build index.html --dist-dir docs --no-cache  --public-url ./",
