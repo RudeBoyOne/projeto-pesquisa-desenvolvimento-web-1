@@ -6,7 +6,7 @@
     "start": "node server.js",
     "dev": "npm-run-all --parallel dev:*",
     "dev:server": "nodemon server.js",
-    "dev:browser-sync": "browser-sync start --proxy 'localhost:3000' --files '*.html, *.css, *.js'",
+    "dev:browser-sync": "browser-sync start --proxy 'localhost:3000' --files '*.html, src/css/*.css, src/*.js'",
     "build": "parcel build index.html --dist-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
