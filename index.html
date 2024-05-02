@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="src/css/reset.css"> -->
+  <link rel="stylesheet" href="src/css/reset.css">
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <title>Project Bulma</title>
 </head>
 <body>
   <header>
-    <nav class="navbar card">
+    <nav class="navbar has-background-white-bis">
       <div class="navbar-brand is-size-4">
         <a class="navbar-item">Hello World</a>
         <a role="button" class="navbar-burger" aria-label="menu">
-          <span aria-hidden="true" class=""></span>
+          <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -131,7 +132,156 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="src/imgs/imgFour.jpg" alt="Placeholder image"/>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <h2 class="title is-4">Entre em contato</h2>
+            <form>
+              <div class="field">
+                <label for="nome" class="label"></label>
+                <div class="control">
+                  <input id="nome" name="nome" class="input" type="text" placeholder="Nome">
+                </div>
+              </div>
+              <div class="field">
+                <label for="email" class="label"></label>
+                <div class="control">
+                  <input id="email" name="email" class="input" type="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="field">
+                <label for="assunto" class="label"></label>
+                <div class="control">
+                  <textarea id="assunto" name="assunto" class="textarea has-fixed-size" placeholder="Assunto"></textarea>
+                </div>
+              </div>
+              <div class="field is-grouped is-grouped-right">
+                <div class="control">
+                  <button type="button" class="button is-success"> Enviar </button>
+                </div>
+              </div>
+            </form>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer class="footer has-background-white-bis">
+    <section class="columns">
+      <div class="column grid">
+        <ul class="is-flex is-flex-direction-column has-background-white-bis">
+          <li>
+            <h4 class="title is-4">Company</h4>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Blog</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Pricing</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">About Us</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Contact us</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Testimonials</a>
+          </li>
+        </ul>
+  
+        <ul>
+          <li>
+            <h4 class="title is-4">Support</h4>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Legal policy</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Status policy</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Privacy policy</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="#">Terms of service</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column is-flex is-flex-direction-column">
+        <section>
+          <h2 class="title is-2">Hello World</h2>
+          <h3 class="subtitle">Copyright © 2021 Hello World <br> All rights reserved</h3>
+          <ul class="is-flex is-gap-3 mb-5">
+            <li>
+              <span class="icon">
+                <a href="" class="navbar-item">
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <a href="" class="navbar-item">
+                  <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <a class="navbar-item" href="#">
+                  <i class="fa-brands fa-solid fa-instagram fa-2xl"></i>
+                </a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <a href="" class="navbar-item">
+                  <i class="fa-brands fa-youtube fa-2xl"></i>      
+                </a>
+              </span>
+            </li>
+            <li>
+              <span class="icon">
+                <a href="" class="navbar-item">
+                  <i class="fa-brands fa-square-facebook fa-2xl"></i>      
+                </a>
+              </span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <div class="field">
+            <label class="label">Get updates</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Your email">
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <div class="content has-text-centered">
+      <p>
+        <strong>Hello World</strong> by <a href="#">GYRL</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          >CC BY NC SA 4.0</a
+        >.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
